@@ -1,0 +1,65 @@
+/* =============== ExtarLarge Device Responsive ============== */
+
+@media (max-width: 1399.98px) { 
+    :root {
+        --first_background_color: #1C1E53;
+        --second_background_color: #F4F6FC;
+        --thirt_background_color: #ffffff;
+        --first_font_color: #282938;
+        --Btn_yello_color: #FCD980;
+        --poppins_font: "Poppins", sans-serif; 
+    }
+    /* ================ Extra Large Responsive =============== */
+    .bannerLeft__title {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .coustomBtn {
+        padding: 12px 25px;
+    }
+
+    .para {
+        font-size: 43px;
+        line-height: 61px;
+    }
+
+    .clientHeading__title {
+        font-size: 34px;
+        line-height: 50px;
+    }
+
+    .clientReview__para { 
+        font-size: 24px;
+        line-height: 43px;
+    }
+
+    .websitesleft__title {
+        font-size: 46px;
+        line-height: 63px;  
+    }
+
+    .sandBtn {
+        padding: 17px 135px;
+        line-height: 22px;
+    }
+
+    .backPart__title {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .backPart__para {
+        font-size: 17px;
+    }
+
+    .mailPart__contact {
+        font-size: 14px;
+    }
+
+    .callPart__number {
+        font-size: 12px;
+    }
+    /* ================ Extra Large Responsive =============== */
+} 
+/* =============== ExtarLarge Device Responsive ============== */

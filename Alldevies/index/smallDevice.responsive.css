@@ -1,0 +1,29 @@
+/* =============== Small Device Responsive ============== */
+@media (max-width: 767.98px) {
+    :root {
+        --first_background_color: #1C1E53;
+        --second_background_color: #F4F6FC;
+        --thirt_background_color: #ffffff;
+        --first_font_color: #282938;
+        --Btn_yello_color: #FCD980;
+        --poppins_font: "Poppins", sans-serif; 
+    }
+
+ /* =============== Small Device Responsive ============== */
+ .coustomBtn {
+	margin-left: 76px;
+}
+
+.banner--modify {
+	margin-right: 72px;
+}
+
+.projectWarper__title {
+	font-size: 28px;
+}
+
+}
+
+
+
+/* =============== Small Device Responsive ============== */

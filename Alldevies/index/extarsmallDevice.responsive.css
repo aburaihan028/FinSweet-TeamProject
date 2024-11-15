@@ -1,0 +1,84 @@
+/* =============== ExtaramallDevice Responsive ============== */
+@media (max-width: 575.98px) { 
+
+    :root {
+        --first_background_color: #1C1E53;
+        --second_background_color: #F4F6FC;
+        --thirt_background_color: #ffffff;
+        --first_font_color: #282938;
+        --Btn_yello_color: #FCD980;
+        --poppins_font: "Poppins", sans-serif; 
+    }
+    /* =============== ExtaramallDevice Responsive ============== */
+
+    .bannerLeft__title {
+        font-size: 28px;
+        line-height: 45px;
+    }
+
+    .coustomBtn {
+        padding: 15px 26px;
+    }
+
+    .workLeft__title {
+        font-size: 30px;
+    }
+
+    .projectWarper__title {
+        font-size: 16px;
+        margin-top: -17px;
+    }
+
+    .para {
+        font-size: 23px;
+        line-height: 38px;
+    }
+
+    .featuresPara {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .clientHeading {
+        padding-right: 10px;
+    }
+
+    .clientHeading__title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .clientReview__para {
+        font-size: 21px;
+        line-height: 35px;
+    }
+
+    .websitesleft {
+        padding-top: 66px;
+        padding-left: 25px;
+        padding-bottom: 130px;
+    }
+
+    .websitesleft__para {
+        width: 256px;
+        font-size: 14px;
+    }
+
+    .websitesRight {
+        padding-left: 10px;
+    }
+
+    .form-control {
+        width: 90%;
+    }
+
+    .sandBtn {
+        padding: 18px 67px;
+    }
+
+    .ul {
+        padding-left: 0rem;
+    }
+ }
+
+/* =============== ExtaramallDevice Responsive ============== */

@@ -1,0 +1,106 @@
+/* =============== Large Device Responsive ============== */
+@media (max-width: 1199.98px) {
+    :root {
+        --first_background_color: #1C1E53;
+        --second_background_color: #F4F6FC;
+        --thirt_background_color: #ffffff;
+        --first_font_color: #282938;
+        --Btn_yello_color: #FCD980;
+        --poppins_font: "Poppins", sans-serif; 
+    }
+    /* ================ Large Responsive =============== */
+
+    .ViewPricing {
+        margin-top: 30px;
+    }
+
+    .banner--modify{
+        padding: 12px 100px;
+    }
+    
+    .workItem__para {
+        padding: 0 25px;
+    }
+
+    .para {
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .featuresPara {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .clientHeading__para {
+        margin-bottom: 25px;
+    }
+
+    #faqPart {
+        padding: 10px 0;
+    }
+
+    .faqLeft__title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .websitesleft__title {
+        font-size: 30px;
+        line-height: 50px;
+        width: 300px;
+    }
+
+    .websitesleft__para {
+        width: 326px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .sandBtn {
+        padding: 6px 90px;
+    }
+
+    .sandBtn {
+        margin-top: 17px;
+    }
+
+    .websitesRight {
+        height: 100%;
+    }
+
+    .touchBtn {
+        margin-left: 27%;
+        margin-top: 3px;
+    }
+
+    #cardPard {
+        padding: 10px 0;
+    }
+
+    .talkRight__title {
+        font-size: 30px;
+    }
+
+    .imageleft__para {
+        margin-top: 22px;
+    }
+
+    .iconItem {
+        margin-top: 20px;
+    }
+
+    .mailPart__contact {
+        font-size: 12px;
+    }
+
+    .callPart__number {
+        font-size: 12px;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+    /* ================ Large Responsive =============== */
+ }
+ /* =============== Large Device Responsive ============== */

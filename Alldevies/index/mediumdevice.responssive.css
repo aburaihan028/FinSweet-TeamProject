@@ -1,0 +1,61 @@
+/* =============== Medium Device Responsive ============== */
+@media (max-width: 991.98px) {
+    :root {
+        --first_background_color: #1C1E53;
+        --second_background_color: #F4F6FC;
+        --thirt_background_color: #ffffff;
+        --first_font_color: #282938;
+        --Btn_yello_color: #FCD980;
+        --poppins_font: "Poppins", sans-serif; 
+    }
+
+    /* =============== Medium Device Responsive ============== */
+    .coustomItam{
+        background-color: var(--Btn_yello_color);
+        text-align: center;
+        padding: 5px 0;
+        margin: 5px;
+        border-radius: 7px;
+    }
+    .coustomBtn {
+        padding: 10px 125px;
+    }
+
+    .coustomBtn {
+        margin-left: 160px;
+    }
+
+    .banner--modify {
+        margin-left: 8px;
+    }
+
+    .projectWarper__title {
+        font-size: 38px;
+    }
+
+    .featuresPara {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .faqLeft{
+        margin-bottom: 20px;
+    }
+
+    .websitesRight {
+        height: 114%;
+    }
+    .backPart__title {
+        width: 100%;
+        max-width: none;
+    }
+    .backPart__para {
+        max-width: none;
+    }
+
+    .yellowClr {
+        margin-top: 40px;
+    }
+ }
+
+/* =============== Medium Device Responsive ============== */
