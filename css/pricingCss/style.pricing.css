@@ -1,1 +1,438 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ==================common css Start=================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+a,
+span {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+section,
+p,
+a,
+button,
+img,
+svg {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+:root {
+    --bg_color: #1C1E53;
+    --dark_blue: #282938;
+    --royle_blue: #2405F2;
+    --Manrope: "Manrope", sans-serif;
+    --Poppins: "Poppins", sans-serif;
+    --primary_font_color: #282938;
+    --primary_font_size: 16px;
+    --primary_font_weight: 400;
+    --primary_heading_size: 32px;
+    --primary_heading_weight: 500;
+}
+
+/* ==================common css end=================== */
+
+/*==================== Nav Bar Start ====================== */
+
+.sticky {
+    background: #1c1e53df;
+}
+
+.NavBar_Modify {
+    padding: 16px 0;
+}
+
+.NavBarPadding {
+    padding-left: 56px;
+}
+
+.NavBar_link {
+    color: #BBBBCB;
+    font-family: var(--font_family);
+    font-size: var(--primary_font_size);
+    font-weight: var(--primary_heading_weight);
+    line-height: 28px;
+    transition: ease-in-out 0.3s;
+    position: relative;
+    padding: 0 !important;
+}
+
+.NavBar_link::after {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: ease-in-out 0.3s;
+}
+
+.NavBar_link:hover {
+    color: #fff;
+}
+
+.NavBar_link:hover::after {
+    width: 100%;
+}
+
+.btn_Modify {
+    font-family: var(--Poppins);
+    font-size: var(--primary_font_size);
+    font-weight: var(--primary_heading_weight);
+    line-height: 28px;
+    padding: 16px 48px;
+    background: transparent;
+    border: 2px solid #F4F6FC33;
+    border-radius: 41px;
+    margin-left: 111px;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s all ease;
+}
+
+.btn_Modify:hover {
+    color: var(--dark_blue);
+}
+
+.btn_Modify::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(252, 217, 128, 1);
+    position: absolute;
+    bottom: 0;
+    left: -190px;
+    border-radius: 41px;
+    transition: 0.5s all ease;
+    z-index: -1;
+}
+
+.btn_Modify:hover::after {
+    left: 0;
+}
+
+/*==================== Nav Bar End ====================== */
+
+
+/* <!-- ==================== Pricing part start ======================  --> */
+
+#Pricing{
+    padding: 220px 0 0;
+}
+
+.PricingHead{
+    width: 562px; 
+    text-align: center;  
+}
+
+.PricingHead__h2{
+    font-family: var(--Poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: var(--dark_blue);
+}
+
+.PricingHead__p{
+    font-family: var(--Poppins);
+    font-size: var(--primary_font_size);
+    font-weight: var(--primary_heading_weight);
+    line-height: 28px;    
+    color: rgba(40, 41, 56, 0.686);
+}
+
+/* <!-- //// pricing bottom part //// --> */
+
+.pricingItem{
+    height: 745px;
+    background: #F4F6FC;
+    padding: 64px 76px 0 48px;
+    border-radius: 12px;
+    transition: ease-in-out 0.2s;
+    margin-top: 64px;
+}
+
+.pricingItem:hover{
+    background: var(--bg_color);
+    scale: 1.03;
+}
+.pricingBgOverly::before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    left: -119px;
+    top: -411px;
+    clip-path: circle(50% at 50% 50%);
+    z-index: -1;
+}
+.pricingItem:hover .pricingBgOverly::before{
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.pricingItem__h5{
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;   
+    color: var(--dark_blue); 
+}
+
+.pricingItem:hover .pricingItem__h5{
+    color: #fff;
+}
+
+.pricingItem__span{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--royle_blue);    
+}
+.pricingItem:hover .pricingItem__span{
+    color: #FCD980;
+}
+
+.pricingItem__h3{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: var(--dark_blue);    
+}
+.pricingItem:hover .pricingItem__h3{
+    color: #fff;
+}
+.pricingItem__p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.509);    
+}
+
+.pricingItem:hover .pricingItem__p{
+    color: rgba(255, 255, 255, 0.591);
+}
+
+.pricingItem__list{
+    margin-top: 78px;
+}
+
+.pricingItem__list li{
+    font-family: var(--Poppins);
+    font-size: var(--primary_font_size);
+    font-weight: var(--primary_font_weight);
+    line-height: 28px;
+    color: #282938;
+    margin-bottom: 20px;
+}
+.pricingItem:hover .pricingItem__list li{
+    color: #fff;
+}
+.pricingItem__icon {
+    filter: grayscale(1);
+}
+
+.pricingItem__btn{
+    font-family: var(--Manrope);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px; 
+    color: #fff;
+    padding: 16px 78px;
+    background: var(--dark_blue);
+    border-radius: 41px;
+    margin-top: 71px;
+}
+
+.pricingItem:hover .pricingItem__btn{
+    color: var(--dark_blue);
+    background: #FCD980;
+}
+
+.pricingItem-modify{
+    margin-top: 32px;
+}
+.pricingItem__btn-Modify{
+    margin-top: 69px;
+}
+
+/* <!-- ==================== Pricing part End ======================  --> */
+
+
+/* <!-- =================== Questions  Part Start =====================  --> */
+
+#Questions {
+    padding: 128px 0;
+}
+
+.QuestionsLeft_h3 {
+    font-family: var(--Poppins);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: var(--dark_blue);
+}
+
+.QuestionsLeft_link {
+    font-family: var(--Poppins);
+    font-size: 18px;
+    font-weight: var(--primary_heading_weight);
+    line-height: 32px;
+    color: var(--royle_blue);
+}
+
+.accordion-header{
+    margin-bottom: 5px;
+}
+
+.accordion-button::after {
+    background-image: url("/images/plus.svg");
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("/images/dash.svg");
+}
+
+.Accordion-Moddify{
+    font-family: var(--Poppins);
+    font-size: 24px;
+    font-weight: var(--primary_heading_weight);
+    line-height: 36px;
+}
+
+.AccordionNum-Moddify{
+    font-family: var(--Poppins);
+    font-size: 24px;
+    font-weight: var(--primary_heading_weight);
+    line-height: 36px;
+    color: #2405F2;
+}
+
+/* <!-- ==================== Questions  Part End ======================  --> */
+
+
+
+/* ==================== footer part Start ===================== */
+
+#footer{
+    background: rgba(28, 30, 83, 1);
+    padding: 96px 0 0;
+}
+
+.footer__p{
+    font-family: var(--Poppins);
+    font-size: var(--primary_font_size);
+    font-weight: var(--primary_heading_weight);
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.573);
+}   
+
+.footerContact{
+    background: #FCD980;
+    margin-top: 97px;
+}
+
+.footerContact__emailtitle{
+    font-family: var(--Poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px; 
+    color: var(--dark_blue);  
+}
+
+.footerContact_email{
+    font-family: var(--Poppins);
+    font-size: var(--primary_font_weight);
+    font-weight: var(--primary_font_weight);
+    line-height: 28px;  
+    color: var(--dark_blue);  
+}
+
+.footerContact__calltitle{
+    font-family: var(--Poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px; 
+    color: var(--dark_blue);    
+}
+
+.footerContact__num{
+    font-family: var(--Poppins);
+    font-size: var(--primary_font_weight);
+    font-weight: var(--primary_font_weight);
+    line-height: 28px;  
+    color: var(--dark_blue); 
+}
+
+/* <!-- footer right part --> */
+
+.footerRight__h2{
+    font-family: var(--Poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;    
+    color: #fff;
+}
+
+.footerRight__Socail-Moddify{
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    margin-right: 26px;
+    margin-top: 112px;
+}
+
+.footer__copyright{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;    
+}
+
+.footer__navitem{
+    padding-left: 30px;
+}
+
+.footer__navlink{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;    
+    color: var(--dark_blue);
+}
+
+
+/* ==================== footer part End ===================== */
