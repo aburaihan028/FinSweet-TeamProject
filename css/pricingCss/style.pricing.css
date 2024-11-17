@@ -323,7 +323,7 @@ img {
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url("/images/dash.svg");
+    background-image: url("/images/x.svg");
 }
 
 .Accordion-Moddify{
