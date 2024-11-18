@@ -58,88 +58,62 @@ img {
 
 /* ==================common css end=================== */
 
-/*==================== Nav Bar Start ====================== */
+/*============================Nav Css======================= */
 
-.sticky {
-    background: #1c1e53df;
+.coustomNav {
+    background-color: var(--bg_color);
+    /* padding: 16px 0; */
 }
 
-.NavBar_Modify {
-    padding: 16px 0;
-}
-
-.NavBarPadding {
-    padding-left: 56px;
-}
-
-.NavBar_link {
+.coustomNavItem {
     color: #BBBBCB;
-    font-family: var(--font_family);
-    font-size: var(--primary_font_size);
-    font-weight: var(--primary_heading_weight);
-    line-height: 28px;
-    transition: ease-in-out 0.3s;
-    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 32px;
     padding: 0 !important;
-}
-
-.NavBar_link::after {
-    content: "";
-    height: 3px;
-    width: 0%;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: ease-in-out 0.3s;
-}
-
-.NavBar_link:hover {
-    color: #fff;
-}
-
-.NavBar_link:hover::after {
-    width: 100%;
-}
-
-.btn_Modify {
-    font-family: var(--Poppins);
-    font-size: var(--primary_font_size);
-    font-weight: var(--primary_heading_weight);
-    line-height: 28px;
-    padding: 16px 48px;
-    background: transparent;
-    border: 2px solid #F4F6FC33;
-    border-radius: 41px;
-    margin-left: 111px;
-    color: #fff;
-    overflow: hidden;
     position: relative;
-    transition: 0.5s all ease;
 }
 
-.btn_Modify:hover {
-    color: var(--dark_blue);
-}
-
-.btn_Modify::after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    background: rgba(252, 217, 128, 1);
+.coustomNavItem::after {
     position: absolute;
-    bottom: 0;
-    left: -190px;
-    border-radius: 41px;
-    transition: 0.5s all ease;
-    z-index: -1;
-}
-
-.btn_Modify:hover::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(248, 244, 244);
     left: 0;
+    bottom: 0;
+    transition: all linear .3s;
 }
 
-/*==================== Nav Bar End ====================== */
+.coustomNavItem:hover {
+    color: white;
+}
+
+.coustomNavItem:hover::after {
+    width: 100%;
+}
+
+
+.coustomBtn {
+    padding: 12px 30px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid rgba(244, 244, 252, 0.20);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 41px;
+    margin-left: 85px;
+    transition: ease 2s;
+    color: #fff;
+}
+
+.coustomBtn:hover {
+    background-color: #FCD980;
+    color: var(--dark_blue);
+
+}
+
+/*============================Nav Css======================= */
 
 
 /* <!-- ==================== Pricing part start ======================  --> */

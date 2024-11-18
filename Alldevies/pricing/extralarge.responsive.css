@@ -1,13 +1,56 @@
 /* =============== ExtarLarge Device Responsive ============== */
 
-@media (max-width: 1399.98px) { 
-    :root {
-        --first_background_color: #1C1E53;
-        --second_background_color: #F4F6FC;
-        --thirt_background_color: #ffffff;
-        --first_font_color: #282938;
-        --Btn_yello_color: #FCD980;
-        --poppins_font: "Poppins", sans-serif; 
+@media (max-width: 1199.98px) {
+    .pricingItem {
+        height: 697px;
     }
-} 
+
+    .pricingItem__price {
+        font-size: 28px;
+    }
+    .pricingItem__span {
+        font-size: 14px;
+    }
+    .pricingItem__title {
+        font-size: 21px;
+    }
+    .pricingItem__summary {
+        font-size: 14px;
+    }
+    .pricingItem__list {
+        margin-top: 48px;
+    }
+    .pricingItem__list li {
+        margin-bottom: 13px;
+        font-size: 11px;
+    }
+    .pricingItem-modify {
+        margin-top: 25px;
+    }
+    .pricingItem__btn {
+        font-size: 17px;
+        padding: 10px 39px;
+        /* width: 0px; */
+    }
+    .pricingItem__btn-Modify {
+        margin-top: 53px;
+    }
+    /* footer part */
+    .footerContact__emailtitle {
+        font-size: 16px;
+    }
+    .footerContact_email {
+        font-size: 13px;
+    }
+    .footerContact__calltitle{
+        font-size: 16px;
+    }
+    .footerContact__num{
+        font-size: 13px;
+    }
+    .footerRight__summary{
+        font-size: 14px;
+    }
+}
+
 /* =============== ExtarLarge Device Responsive ============== */
